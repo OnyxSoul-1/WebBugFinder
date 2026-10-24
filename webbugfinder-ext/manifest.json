@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "WebBugFinder",
+  "version": "1.0.0",
+  "description": "Show page HTML/JS/forms and flag common web bugs.",
+  "permissions": ["activeTab", "scripting", "storage"],
+  "host_permissions": ["<all_urls>"],
+  "action": { "default_title": "WBF — scan this page" },
+  "background": { "service_worker": "background.js" }
+}
