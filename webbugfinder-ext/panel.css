@@ -1,0 +1,10 @@
+.wbf-panel{position:fixed;top:0;right:0;width:46vw;height:100vh;z-index:2147483647;background:#0a0c10;color:#c9d1d9;font:12px/1.45 monospace;border-left:1px solid #1f2733;overflow:auto;padding:12px;box-sizing:border-box}
+.wbf-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;color:#f0c850}
+.wbf-head button{background:#1f2733;color:#c9d1d9;border:1px solid #303a48;padding:2px 8px;cursor:pointer}
+.wbf-url{color:#8b949e;word-break:break-all;margin-bottom:8px}
+.wbf-flags-title{color:#f85149;margin:10px 0 4px}
+.wbf-flag{border-left:3px solid #303a48;padding:4px 8px;margin:3px 0;background:#06080b}
+.wbf-panel details{margin:6px 0}
+.wbf-panel summary{color:#f0c850;cursor:pointer}
+.wbf-pre{background:#06080b;border:1px solid #1f2733;padding:8px;white-space:pre-wrap;word-break:break-all;max-height:40vh;overflow:auto}
+.wbf-foot{color:#8b949e;margin-top:8px}
